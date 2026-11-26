@@ -1,0 +1,4 @@
+[env]
+# The shell's LIBCLANG_PATH points at the ESP (xtensa) clang; bindgen in
+# gpui needs Apple's libclang to see the macOS SDK frameworks.
+LIBCLANG_PATH = { value = "/Library/Developer/CommandLineTools/usr/lib", force = true }

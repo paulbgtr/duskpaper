@@ -5,6 +5,8 @@ edition = "2024"
 
 [dependencies]
 block2 = "0.6"
+futures = "0.3"
+gpui = { version = "0.2.2", default-features = false, features = ["font-kit", "runtime_shaders"] }
 objc2 = "0.6"
 objc2-app-kit = { version = "0.3", features = ["NSWorkspace", "NSScreen", "NSApplication", "NSResponder"] }
 objc2-foundation = { version = "0.3", features = ["NSDistributedNotificationCenter", "NSNotification", "NSRunLoop", "NSURL", "NSString", "NSDictionary", "NSError", "NSUserDefaults", "NSOperation"] }
